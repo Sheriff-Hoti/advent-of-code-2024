@@ -23,7 +23,7 @@ func main() {
 
 	counter := 0
 
-	for idx, val := range byteSlice {
+	for idx := range byteSlice {
 
 		if downCheck(byteSlice, idx, length) {
 			counter++
